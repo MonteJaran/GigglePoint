@@ -8,9 +8,13 @@ public class UnitInfo : MonoBehaviour
     public Texture objectShape;
     public Texture[] objectFace;
     public Color objectColor;
+    public Animator animatorForMouth;
+    public Animator animatorForEyes1;
     
     [Header("States of progress")]
     public int amountOfHappiness;
+    [Range(0f,1f)]
+    public float delayMouthEyes;
 
     [Header("Additional assets")]
     public RawImage thisShape;
@@ -31,20 +35,20 @@ public class UnitInfo : MonoBehaviour
 
     public void UpdateObjectFace()
     {
-        if(amountOfHappiness < 40)
-        {
-            thisFace.texture = objectFace[2];
-        } else if(amountOfHappiness >= 40 && amountOfHappiness < 60)
-        {
-            thisFace.texture = objectFace[1];
-        } else if(amountOfHappiness >= 60){
-            thisFace.texture = objectFace[0];
-        }
+        // if(amountOfHappiness < 40)
+        // {
+        //     thisFace.texture = objectFace[2];
+        // } else if(amountOfHappiness >= 40 && amountOfHappiness < 60)
+        // {
+        //     thisFace.texture = objectFace[1];
+        // } else if(amountOfHappiness >= 60){
+        //     thisFace.texture = objectFace[0];
+        // }
     }
 
     public void ForceHappyFace()
     {
-        thisFace.texture = objectFace[0];
+        //thisFace.texture = objectFace[0];
     }
 
     // Animations
@@ -55,6 +59,8 @@ public class UnitInfo : MonoBehaviour
     private float deltaSecondTimePass = 1f;
     public void SizeChangingGiggle(int levelOfLaugh)
     {
+        Invoke("StartLaughingMouth",delayMouthEyes);
+        
         if(levelOfLaugh == 1)
         {
             //newScale = 0.97f; so it's 0.03 / 4 = 0.0075
@@ -110,5 +116,10 @@ public class UnitInfo : MonoBehaviour
     private void StopInvocationsResizeEnd()
     {
         CancelInvoke("IncreaseThisObject");
+    }
+
+    public void StartLaughingMouth()
+    {
+        animatorForMouth.SetTrigger("Laugh");
     }
 }

@@ -62,7 +62,7 @@ public class UnitGenerator : MonoBehaviour
         //UInfo = currentObject.GetComponent<UnitInfo>();
         UInfo.objectShape = bodies[id_body];
         UInfo.objectColor = colors[id_color];
-        UInfo.objectFace = faces[id_face];
+        //UInfo.objectFace = faces[id_face];
 
         // later improved by game state
         int random_mood_level = Random.Range(20,90);

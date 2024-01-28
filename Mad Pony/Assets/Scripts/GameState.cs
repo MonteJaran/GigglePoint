@@ -10,6 +10,7 @@ public class GameState : MonoBehaviour
     public string[] nameOfMusicGenres; 
     public string currentMusic;
     public int currentStateMusic;
+    public SoundEffectsPlayer SEffects;
     [Header("Light")]
     public string[] nameOfLightGenres; 
      public string currentLight;
@@ -38,6 +39,7 @@ public class GameState : MonoBehaviour
         {
             currentStateMusic = 0;  
         }
+        SEffects.PutMusicSoundtrack(currentStateMusic);
         currentMusic = nameOfMusicGenres[currentStateMusic];
         musicText.text = nameOfMusicGenres[currentStateMusic];
     }

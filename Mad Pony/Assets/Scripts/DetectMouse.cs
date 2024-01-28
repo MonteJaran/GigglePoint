@@ -9,9 +9,11 @@ public class DetectMouse : MonoBehaviour
     public int buttonID;
     public float AllowedrangeFromMiddle;
     public float rangeFromMiddle;
+    public float rangeFromScreenMiddle;
+    public Transform middleOfTheScreen; // transform
     public GiggleLogic GLogic;
     public UnitInfo UInfo;
-
+    public SoundEffectsPlayer SEffect;
     void Start()
     {
         timerForUsRe = timerForUs;
@@ -30,59 +32,104 @@ public class DetectMouse : MonoBehaviour
         // Check if the mouse position overlaps with both CircleCollider2D and PolygonCollider2D using raycasting
         if (Input.GetMouseButton(0) && timerForUs < 0f) // Assuming left mouse button is used
         {
-            bool true2 = false;
-                        
             timerForUs = timerForUsRe;
 
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+            bool hitBody = polygonCollider.OverlapPoint(mousePosition);
+
             // Calculate the distance between the mouse position and the object's position
             rangeFromMiddle = Vector2.Distance(mousePosition, pointOfLaugh.transform.position);
-
-            // Perform a raycast from the mouse position to check the PolygonCollider2D
-            RaycastHit2D hitPolygon = Physics2D.Raycast(mousePosition, Vector2.zero);
             
-            Debug.LogWarning("Mouse position: " + mousePosition + " and mid position: " + pointOfLaugh.transform.position);
-
-             if(hitPolygon.collider != null && hitPolygon.collider == polygonCollider)
-            {
-                true2 = true;
-                
-                
-            }
-
-            // if(true2 = true)
+            // if(hitBody == true)
             // {
-
                 if(rangeFromMiddle < AllowedrangeFromMiddle)
                 {
+                    UInfo.animatorForEyes1.SetTrigger("Eye1Laugh");
                     if(rangeFromMiddle < (AllowedrangeFromMiddle * 0.7f))
                     {
                         if(rangeFromMiddle < (AllowedrangeFromMiddle * 0.4f))
                         {
-                            GLogic.GigglingIt(3);
-                            UInfo.SizeChangingGiggle(3);
+                            GroupOfFunctions(3);
                             Debug.Log("GAGAGAGAGAGAGAGAGGHAHAHH");
                             return;
                         }
-                        GLogic.GigglingIt(2);
-                        UInfo.SizeChangingGiggle(2);
+                        GroupOfFunctions(2);
                         Debug.Log("Hahahahahaahha");
                         return;
                     }
-                    GLogic.GigglingIt(1);
-                    UInfo.SizeChangingGiggle(1);
+                    GroupOfFunctions(1);
                     Debug.Log("hah");
                     return;
-                }
-                else if(rangeFromMiddle > (AllowedrangeFromMiddle * 1.2f) && rangeFromMiddle < (AllowedrangeFromMiddle * 2f)){
+                }   
+                rangeFromScreenMiddle = Vector2.Distance(mousePosition, middleOfTheScreen.position);
+                if( rangeFromMiddle > AllowedrangeFromMiddle && rangeFromScreenMiddle < (AllowedrangeFromMiddle * 3))
+                {
+                    UInfo.animatorForEyes1.SetTrigger("Eye1Angry");
                     GLogic.GigglingIt(0);
+                    SEffect.StartCoundCalculation(0);
                     Debug.Log("Ouch");
                 }
-            
+                
+
             // }
             
            
         }
     }
+
+    public void GroupOfFunctions(int callingThis)
+    {
+        GLogic.GigglingIt(callingThis);
+        UInfo.SizeChangingGiggle(callingThis);
+        SEffect.StartCoundCalculation(callingThis);
+    }
 }
+
+
+
+/*
+timerForUs -= Time.deltaTime;
+
+        if (Input.GetMouseButton(0) && timerForUs < 0f) // Assuming left mouse button is used
+        {
+            timerForUs = timerForUsRe;
+
+            Vector2 mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
+
+            bool hitHot = hotCollider.OverlapPoint(mousePosition);
+            bool hitWarm = warmCollider.OverlapPoint(mousePosition);
+            bool hitCold = coldCollider.OverlapPoint(mousePosition);
+            bool hitBody = polygonCollider.OverlapPoint(mousePosition);
+
+            if (!hitBody)
+            {
+                return;
+            }
+
+            if (hitHot)
+            {
+                Debug.Log("HOT!!!");
+                //GLogic.GigglingIt(3);
+                return;
+            }
+
+            if (hitWarm)
+            {
+                Debug.Log("WARM!");
+                //GLogic.GigglingIt(2);
+                return;
+            }
+
+            if (hitCold)
+            {
+                Debug.Log("COLD");
+               // GLogic.GigglingIt(1);
+                return;
+            }
+
+            Debug.Log("Fuck you, man");
+            //GLogic.GigglingIt(0);
+            return;
+        }
+*/

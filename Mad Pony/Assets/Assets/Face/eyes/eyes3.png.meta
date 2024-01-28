@@ -1,0 +1,2203 @@
+fileFormatVersion: 2
+guid: 17ab2d48ccab7014a808c1c5702de148
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eyes3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac7840405bfd5f449fe5804945a6456
+      internalID: 1847220150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4608
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6675e148e85800647955142c295aafe9
+      internalID: -1862283943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 4608
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad7067975d8d084496d6bf1c911fdd2
+      internalID: 1666822279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_3
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 4608
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c94e569fb4e86428c05bb54d723b8c
+      internalID: 136039423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_4
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 4608
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171abae0a2f372e4ba0e86779d3aa6f5
+      internalID: -460889639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4352
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b0bec677078b24dab66c9e9ffd1b1e
+      internalID: 256270652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4352
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b003d772ee644a8b24a5a2c971c3a
+      internalID: -245928424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 4352
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3618cc170d3f7ca4a869c2db11af7418
+      internalID: -1939793540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_8
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 4352
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e791c00159abb47b54278135c844b4
+      internalID: -1786425692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_9
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 4352
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703906dc490503348babd9e6b8be206d
+      internalID: 1224560628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d404162fa358a4fabdeaa40922bfd9
+      internalID: -54446659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_11
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4096
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3087d24f00e614ebdff27ecfe6153c
+      internalID: -173850625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_12
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 4096
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae85b66a7d023941bbbfb6fb75660aa
+      internalID: -665211539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_13
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 4096
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898d44031dbb5674baf291e8af91b085
+      internalID: -1922830948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_14
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 4096
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae7d2b1382db9409181a0ed849aa2e
+      internalID: 2072750419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98980d28ce3601469f898beffaa2dbf
+      internalID: -893812080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3840
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e822807d4ad9e041abb5e56c9ffdbca
+      internalID: 1160576975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3840
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4ea44a5cdb7d4daf6ba87ee15025f
+      internalID: 1476408991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_18
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3840
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad9267b170fd234494ba27ec5e829e7
+      internalID: 678407286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_19
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3840
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1903417c1863b47a6ce13e0a117f93
+      internalID: 1521822055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b12470118267f7409a228327a0cf405
+      internalID: 1753834641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3584
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595fc80e9c30474298fe24f5da4b30a
+      internalID: 1327651071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_22
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3584
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c75b2660138474db1587b44bdb0ce8
+      internalID: -1983607466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_23
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3584
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4278bbc21afe245ae7d23b15e205ab
+      internalID: 326048589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_24
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3584
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f085f11ed6a14d45b33f26abfb7ac44
+      internalID: 1261237413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac87590c0c964458ec8f881ea64046
+      internalID: -1211017120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_26
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3328
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432a63a81a11fda4f9c8bab8c0e527e7
+      internalID: -462541366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3328
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e990aa976557841864d54202f2be2a
+      internalID: 538265634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_28
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3328
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879d23be1b90003498ce6f6069cadb25
+      internalID: -398305926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_29
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3328
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4effc47f23d00a45ab52ed17a0cc102
+      internalID: 1126278920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d7fa4af216ec74a85bef21c7ff3bae
+      internalID: 749897994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3072
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd388c25377ee0d4393df62dd8b2eeed
+      internalID: 367654574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_32
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3072
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcfe5c17cbda0f4faa457847d23bd8d
+      internalID: -1861392649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_33
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3072
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a6a6962c8aea44a5ee92fba4726c4
+      internalID: 798625190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_34
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3072
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6735d9593bab1498e6dc99dd4c7099
+      internalID: 1047386184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1385aac488db43947a47d6dcdd82de52
+      internalID: -876263933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_36
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2816
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43054d4d9c7e37044a3f87f94dd3bd07
+      internalID: 763767453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_37
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2816
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa6032f3c60a94aaeb76b72eb719cf
+      internalID: 2082066088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_38
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2816
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75eb808394628e42afb6eb2910d1e23
+      internalID: -1552807078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_39
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2816
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c76f9ee5f02efe4191907626851bb63
+      internalID: -1139705264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3f282ffd2d5fe4d9188f6d200313db
+      internalID: 1627723274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_41
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2560
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5ed5841b1cb2e47ae97a6320953534
+      internalID: -208171561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_42
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2560
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b49e69cd2a9ae446811470a053ea431
+      internalID: 646038406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_43
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2560
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6938980ed25b84e47a9b9bf5e41c6377
+      internalID: -1678397122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_44
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2560
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91cd97b4a1e80141bb65b6429dc9a3b
+      internalID: -1795712518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275847b90774d0459dddaf51bd43ea1
+      internalID: -2485702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_46
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2304
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ce1e354822d542ac07e06b8bd388c
+      internalID: 685042604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_47
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2304
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9631d4629d5592a419c284d0cbb61ffc
+      internalID: 505578901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_48
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2304
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0c52c9d13d3a42aa0e80f0d27ea50
+      internalID: -228787406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_49
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2304
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d98e6fd498b34646a3d1dbe2bbcef4a
+      internalID: 155884165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad9679245f5c5842b2c9c694f94dfe9
+      internalID: 1765094068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_51
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2048
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c98bf5144d5184fa74bd1ee3b57c16
+      internalID: -1058326057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_52
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2048
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9cbd04477bd64285fca31e2d2b1c2
+      internalID: 1699033890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_53
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2048
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eb2e376c7d71141b1a5c028466156f
+      internalID: -1186216453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_54
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2048
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416d088642d07ee459079feb0d076a45
+      internalID: 2045370337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e48fa957ac2d274db401b88f07da100
+      internalID: 1748179721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_56
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1792
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4c64aee2223644394315d8b378c36e
+      internalID: 1111387956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_57
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1792
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e357da31bbafb49850984bc65b8e9f
+      internalID: 1951545197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_58
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1792
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d839276699521d642b64e5c336a6bd27
+      internalID: -375087431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_59
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1792
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a994eb72066e8945b9c763c33b0651b
+      internalID: -273727431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5eb7451c6c858e47b1073bff1ee2034
+      internalID: 662508942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1536
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f05af6302a26d04e8ecb067191ea076
+      internalID: -2044938734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_62
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1536
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c5c2972ef2cc4a9b28a58190a51e9
+      internalID: -1598607686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_63
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1536
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009809466df217340bb6cf49b1c58f9f
+      internalID: 1614787725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_64
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1536
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5ca98ace00fae4eb82ff7a59b31f8c
+      internalID: -1652183582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905cc542118584f4b9896ec2f5b73581
+      internalID: -1643615972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_66
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1280
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9df01e8625d2b44a0319576149d942
+      internalID: 66527753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_67
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1280
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb30456db12bd4fbd9747c5b832bd8
+      internalID: -2123576096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_68
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1280
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc282eacf6d2414f977105007915c95
+      internalID: -2089955061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_69
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1280
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce0b27ca1d59c45bcfc3579d069a32
+      internalID: -281243209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b6d0366c04eba4a9d7de2d95d8b6dc
+      internalID: 2004879312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_71
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1024
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06235c12d3592ad4483db70ecb504374
+      internalID: -401467099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_72
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1024
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56150ba61b87927469263310ce9559ed
+      internalID: 859348578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_73
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1024
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd1a894801431548b5135a4ed7ff59d
+      internalID: -1836163526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_74
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1024
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b4a396dd7e996409ad20a2f5d875cb
+      internalID: -1971121038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8ac98bf2d4a8147a230c6ebd245068
+      internalID: -1825934299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_76
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 768
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0da1c84eaab104fa1b2c1b6fd1cd78
+      internalID: -1145768322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_77
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 768
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8475bc5cfb19f7646aabf233ddaebde5
+      internalID: -166439180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_78
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 768
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576d40e537f19184eba5bed994cf573a
+      internalID: 623444765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_79
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 768
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05b0ef4e7f543444ab25aabdf8b5b66
+      internalID: -1094505288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e9ee7d7bd6994fbebf2915fae5e73
+      internalID: -1094342151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_81
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 512
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95e59f426a074c408ffdfce6673793d
+      internalID: 1409037526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_82
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 512
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e60791486887249b9daf0ea29660ff
+      internalID: 887120377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_83
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 512
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9b269104d536d439533a1fad6a4405
+      internalID: 1869806457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_84
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 512
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b78dad2d631b0498618ebf7032eea3
+      internalID: 972411525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8103ceac5188b59489bd88413f1a2ba1
+      internalID: -2020917394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_86
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 256
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d813db35f04f141a387199deeda03a
+      internalID: -1834606627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_87
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 256
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2067364615009a744a70fd4a490af08e
+      internalID: 1046158075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_88
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 256
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58430807df24fe8479252ea519620437
+      internalID: 1650610254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_89
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 256
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea7114ff49536b489c957b03462d4af
+      internalID: 1663922468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fa4ec5f987bc5499c64b4e6be0cd5f
+      internalID: 1329897418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_91
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d1b254ba8ac0d408b54598a468b90a
+      internalID: -1874526636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_92
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98be8d36d33657f41b8b52dc8f93221b
+      internalID: 414500925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes3_93
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 0
+        width: 511
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e2e1f11f4f69a4b946d1cedb7850b4
+      internalID: 1908045076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eyes3_19: 1521822055
+      eyes3_64: -1652183582
+      eyes3_92: 414500925
+      eyes3_2: 1666822279
+      eyes3_17: 1476408991
+      eyes3_23: 326048589
+      eyes3_42: 646038406
+      eyes3_73: -1836163526
+      eyes3_65: -1643615972
+      eyes3_68: -2089955061
+      eyes3_13: -1922830948
+      eyes3_74: -1971121038
+      eyes3_93: 1908045076
+      eyes3_59: -273727431
+      eyes3_27: 538265634
+      eyes3_90: 1329897418
+      eyes3_72: 859348578
+      eyes3_78: 623444765
+      eyes3_61: -2044938734
+      eyes3_0: 1847220150
+      eyes3_5: 256270652
+      eyes3_12: -665211539
+      eyes3_47: 505578901
+      eyes3_80: -1094342151
+      eyes3_26: -462541366
+      eyes3_28: -398305926
+      eyes3_30: 749897994
+      eyes3_91: -1874526636
+      eyes3_44: -1795712518
+      eyes3_70: 2004879312
+      eyes3_6: -245928424
+      eyes3_51: -1058326057
+      eyes3_16: 1160576975
+      eyes3_31: 367654574
+      eyes3_46: 685042604
+      eyes3_49: 155884165
+      eyes3_81: 1409037526
+      eyes3_50: 1765094068
+      eyes3_32: -1861392649
+      eyes3_67: -2123576096
+      eyes3_71: -401467099
+      eyes3_24: 1261237413
+      eyes3_35: -876263933
+      eyes3_57: 1951545197
+      eyes3_79: -1094505288
+      eyes3_34: 1047386184
+      eyes3_11: -173850625
+      eyes3_36: 763767453
+      eyes3_25: -1211017120
+      eyes3_14: 2072750419
+      eyes3_37: 2082066088
+      eyes3_4: -460889639
+      eyes3_82: 887120377
+      eyes3_7: -1939793540
+      eyes3_88: 1650610254
+      eyes3_22: -1983607466
+      eyes3_15: -893812080
+      eyes3_40: 1627723274
+      eyes3_89: 1663922468
+      eyes3_20: 1753834641
+      eyes3_76: -1145768322
+      eyes3_39: -1139705264
+      eyes3_63: 1614787725
+      eyes3_87: 1046158075
+      eyes3_29: 1126278920
+      eyes3_75: -1825934299
+      eyes3_21: 1327651071
+      eyes3_45: -2485702
+      eyes3_83: 1869806457
+      eyes3_62: -1598607686
+      eyes3_33: 798625190
+      eyes3_8: -1786425692
+      eyes3_69: -281243209
+      eyes3_60: 662508942
+      eyes3_1: -1862283943
+      eyes3_3: 136039423
+      eyes3_10: -54446659
+      eyes3_52: 1699033890
+      eyes3_84: 972411525
+      eyes3_66: 66527753
+      eyes3_41: -208171561
+      eyes3_86: -1834606627
+      eyes3_53: -1186216453
+      eyes3_38: -1552807078
+      eyes3_48: -228787406
+      eyes3_85: -2020917394
+      eyes3_18: 678407286
+      eyes3_54: 2045370337
+      eyes3_58: -375087431
+      eyes3_9: 1224560628
+      eyes3_43: -1678397122
+      eyes3_77: -166439180
+      eyes3_56: 1111387956
+      eyes3_55: 1748179721
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

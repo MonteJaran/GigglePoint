@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9830386be6647694ebb8293feb6e5045
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - feather: {fileID: 2800000, guid: 4fd09558ce33cdb4ead4e4aaecfb8de9, type: 3}
+  - hammer: {instanceID: 0}
+  - plunger: {instanceID: 0}
+  - cursorTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
