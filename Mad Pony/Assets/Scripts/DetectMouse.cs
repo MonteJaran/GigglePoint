@@ -30,7 +30,7 @@ public class DetectMouse : MonoBehaviour
         timerForUs -= Time.deltaTime;
 
         // Check if the mouse position overlaps with both CircleCollider2D and PolygonCollider2D using raycasting
-        if (Input.GetMouseButton(0) && timerForUs < 0f) // Assuming left mouse button is used
+        if (Input.GetMouseButton(0) && timerForUs < 0f && GLogic.canGiggle) // Assuming left mouse button is used
         {
             timerForUs = timerForUsRe;
 
