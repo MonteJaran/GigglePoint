@@ -2,17 +2,16 @@ using UnityEngine;
 
 public class CustomCursor : MonoBehaviour
 {
-    public Texture2D feather, hammer, plunger;
-    private Texture2D cursorTexture;
-    private Vector2 hotSpot = Vector2.zero;
-
-    private bool isMouseDown;
-    private Vector2 plungerStartPosition;
+    public Texture2D feather,hammer,plunger;
+    public Texture2D cursorTexture;
+    public int chosenTool; 
+    public Vector2 hotSpot = Vector2.zero;
 
     void Start()
     {
+        // Hide the system cursor
+        cursorTexture = feather;
         Cursor.visible = false;
-        cursorTexture = feather; // Initial cursor texture
     }
 
     void OnGUI()
@@ -28,9 +27,6 @@ public class CustomCursor : MonoBehaviour
 
         // Lock the cursor within the screen bounds
         ClampCursorToBounds();
-
-        // Update individual tool behaviors
-        UpdateToolBehaviors();
     }
 
     void ClampCursorToBounds()
@@ -46,70 +42,16 @@ public class CustomCursor : MonoBehaviour
         Cursor.visible = false;
     }
 
-    void UpdateToolBehaviors()
+    public void featherCursor()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            isMouseDown = true;
-            plungerStartPosition = Event.current.mousePosition;
-        }
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            isMouseDown = false;
-        }
-
-        // Update cursor texture based on tool and behavior
-        if (isMouseDown)
-        {
-            cursorTexture = plunger;
-            // Implement plunger behavior here
-        }
-        else
-        {
-            // Rotate feather left and right, hammer up and down
-            float rotationSpeed = 5f;
-            float rotationAmount = Mathf.Sin(Time.time * rotationSpeed) * 10f; // Adjust the multiplier for rotation range
-
-            if (cursorTexture == feather)
-            {
-                cursorTexture = RotateTexture(feather, rotationAmount);
-            }
-            else if (cursorTexture == hammer)
-            {
-                cursorTexture = RotateTexture(hammer, rotationAmount);
-            }
-        }
+        cursorTexture = feather;
     }
-
-    Texture2D RotateTexture(Texture2D originalTexture, float angle)
+    public void hammerCursor()
     {
-        Texture2D rotatedTexture = new Texture2D(originalTexture.width, originalTexture.height);
-        Vector2 pivot = new Vector2(0.5f, 0.5f);
-
-        for (int x = 0; x < rotatedTexture.width; x++)
-        {
-            for (int y = 0; y < rotatedTexture.height; y++)
-            {
-                Vector2 point = new Vector2(x, y);
-                Vector2 normalizedPoint = new Vector2(point.x / rotatedTexture.width - pivot.x, point.y / rotatedTexture.height - pivot.y);
-                float normalizedAngle = -angle * Mathf.Deg2Rad;
-                Vector2 rotatedPoint = new Vector2(
-                    normalizedPoint.x * Mathf.Cos(normalizedAngle) - normalizedPoint.y * Mathf.Sin(normalizedAngle),
-                    normalizedPoint.x * Mathf.Sin(normalizedAngle) + normalizedPoint.y * Mathf.Cos(normalizedAngle)
-                ) + pivot;
-
-                rotatedPoint.x = Mathf.Clamp01(rotatedPoint.x);
-                rotatedPoint.y = Mathf.Clamp01(rotatedPoint.y);
-
-                int originalX = Mathf.FloorToInt(rotatedPoint.x * originalTexture.width);
-                int originalY = Mathf.FloorToInt(rotatedPoint.y * originalTexture.height);
-
-                rotatedTexture.SetPixel(x, y, originalTexture.GetPixel(originalX, originalY));
-            }
-        }
-
-        rotatedTexture.Apply();
-        return rotatedTexture;
+        cursorTexture = hammer;
+    }
+    public void plungerCursor()
+    {
+        cursorTexture = plunger;
     }
 }
