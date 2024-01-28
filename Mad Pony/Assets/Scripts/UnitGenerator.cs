@@ -49,19 +49,19 @@ public class UnitGenerator : MonoBehaviour
         int id_color = Random.Range(0, 2);
 
          UInfo.objectShape = bodies[id_body];
-        // UInfo.objectColor = colors[id_color];
+        UInfo.objectColor = colors[id_color];
         //UInfo.objectFace = faces[id_face_mouth];
 
-        foreach(GameObject face in faces)
-        {
-            face.SetActive(false); 
-        }
-        faces[id_face_mouth].SetActive(true);
-        foreach(GameObject mouth in mouths)
-        {
-            mouth.SetActive(false); 
-        }
-        mouths[id_face_mouth].SetActive(true);
+        // foreach(GameObject face in faces)
+        // {
+        //     face.SetActive(false); 
+        // }
+        // faces[id_face_mouth].SetActive(true);
+        // foreach(GameObject mouth in mouths)
+        // {
+        //     mouth.SetActive(false); 
+        // }
+        // mouths[id_face_mouth].SetActive(true);
 
         // later improved by game state
         int random_mood_level = Random.Range(20,90);

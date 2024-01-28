@@ -54,7 +54,7 @@ public class UnitInfo : MonoBehaviour
     // Animations
 
     private float newScale = 1f;
-    private float originalSize = 1f;
+    private float originalSize =  1.3f;
     private float deltaSecondTime = 1f;
     private float deltaSecondTimePass = 1f;
     public void SizeChangingGiggle(int levelOfLaugh)
@@ -104,7 +104,7 @@ public class UnitInfo : MonoBehaviour
     }
     public void OriginalSizeSetting()
     {
-        originalSize = 1f;
+        originalSize = 1.3f;
         Vector3 newScaleVector = new Vector3(originalSize, originalSize, 1f); 
         monsterObject.localScale = newScaleVector;
     }
