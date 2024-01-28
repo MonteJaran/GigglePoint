@@ -40,7 +40,7 @@ public class GiggleLogic : MonoBehaviour
         if (points is 0 or 9)
         {
             canGiggle = false;
-            GState.ShowClientEstimate(points);
+            GState.ShowClientEstimate(points == 0 ? Random.Range(0, 3) : Random.Range(3, 10));
         }
     }
 
