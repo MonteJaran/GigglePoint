@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
+
 public class GiggleLogic : MonoBehaviour
 {
     public GameObject currentObject;
@@ -13,8 +10,17 @@ public class GiggleLogic : MonoBehaviour
     [Header("Wanted Settings")]
     public string wantedLight;
     public string wantedMusic;
-    public Color wantedColor; 
-    
+    public Color wantedColor;
+    public bool canGiggle;
+
+    private int points;
+
+    public void Start()
+    {
+        canGiggle = true;
+        GState.HideClientEstimate();
+    }
+
     public void UploadNewObject(GameObject unit)
     {
         currentObject = unit;
@@ -22,22 +28,29 @@ public class GiggleLogic : MonoBehaviour
     }
     public void PotentallyRemoveThisUnit()
     {
-        if(UInfo.amountOfHappiness > 130)
+        points = UInfo.amountOfHappiness / 10;
+        if (points > 9)
         {
-            Debug.Log("LIVE");
-            UGenerator.CreateNewCharacter();
-            GState.ChangePointsState(10);
-            UInfo.UpdateObjectFace();
-            return;
+            points = 9;
         }
-        else if(UInfo.amountOfHappiness < 20)
+        if (points < 0)
         {
-            Debug.Log("DIE");
-            UGenerator.CreateNewCharacter();
-            GState.ChangePointsState(0);
-            UInfo.UpdateObjectFace();
-             return;
+            points = 0;
         }
+        if (points is 0 or 9)
+        {
+            canGiggle = false;
+            GState.ShowClientEstimate(points == 0 ? Random.Range(0, 3) : Random.Range(3, 10));
+        }
+    }
+
+    public void NextUnit()
+    {
+        canGiggle = true;
+        GState.HideClientEstimate();
+        UGenerator.CreateNewCharacter();
+        GState.ChangePointsState(points);
+        UInfo.UpdateObjectFace();
     }
 
     public void ForcedLeaving()
@@ -50,7 +63,6 @@ public class GiggleLogic : MonoBehaviour
 
     public void ActionPerformance()
     {
-        
         // increase or decrease happines points based on
         PotentallyRemoveThisUnit();
     }
@@ -96,39 +108,40 @@ public class GiggleLogic : MonoBehaviour
     public void GigglingIt(int hittingCircle)
     {
         int points = 0;
-        if(wantedMusic == GState.currentMusic)
+        if (wantedMusic == GState.currentMusic)
         {
             points += 3;
         }
-        if(wantedLight == GState.currentLight)
+
+        if (wantedLight == GState.currentLight)
         {
             points += 3;
         }
-        
-        if(hittingCircle == 0)
+
+        if (hittingCircle == 0)
         {
             UInfo.amountOfHappiness -= 5;
-        } else if(hittingCircle == 1)
+        }
+        else if (hittingCircle == 1)
         {
             UInfo.amountOfHappiness -= 2;
-        } else if(hittingCircle == 2)
+        }
+        else if (hittingCircle == 2)
         {
             UInfo.amountOfHappiness += 10;
-        } else if(hittingCircle == 3)
+        }
+        else if (hittingCircle == 3)
         {
             UInfo.amountOfHappiness += 30;
         }
+
         UInfo.UpdateObjectFace();
-        if(hittingCircle > 0)
+        if (hittingCircle > 0)
         {
             UInfo.ForceHappyFace();
         }
-        
-        
+
+
         PotentallyRemoveThisUnit();
-
-
     }
-
-    
 }
